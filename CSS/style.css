@@ -1,0 +1,58 @@
+/*
+Per Albin Wilhelmsson
+shxxxxxxxx
+18alwi@suni.se
+*/ 
+article, aside, figcaption, figure,footer, header, nav, section {  display: block;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+    background: url(../images/header.png) no-repeat center top;
+} 
+
+body { 
+    background-color: #b1c4c2; 
+    background-image: url(../images/portfolio/bg.jpg) ;
+    font-family: "helvetica neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Cambria, Times, "Times New Roman", serif;
+}
+
+#wrap { 
+    background-color: white;
+    width: 1140px;
+    margin:auto;
+    border-top: 1px solid #fff;
+}
+
+header, footer, section { 
+    padding: 20px 25px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+
+a:link {    
+    color: #68d4c2;     
+    text-decoration: none;
+}  
+a:visited {    
+    color: #68d4c2;     
+    text-decoration: none;
+} 
+a:hover {    
+    color: #555;          
+    text-decoration: underline;
+} 
+a:active{    
+    color: #000;         
+    text-decoration: underline;}
+
+
+
+
+
